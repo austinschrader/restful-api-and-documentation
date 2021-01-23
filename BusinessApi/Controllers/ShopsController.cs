@@ -34,5 +34,14 @@ namespace BusinessApi.Contollers
       return query.ToList();
     }
 
+    // POST api/Shops
+    [HttpPost]
+    public void Post([FromBody] Shop shop)
+    {
+      _db.Shops.Add(shop);
+      _db.SaveChanges();
+    }
+
+
   }
 }
