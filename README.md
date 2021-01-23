@@ -40,7 +40,9 @@ By Austin Schrader, 1/22/2020
 4. Then click POST for /api/Shops
 5. Finally all Shops, click on the "Get" button and then
 
-## API Endpoints
+## API Documentation
+
+### API Endpoints
 
 Home URL of the API: http:localhost:5000/
 
