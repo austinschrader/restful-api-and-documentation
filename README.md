@@ -45,9 +45,7 @@ By Austin Schrader, 1/22/2020
 Home URL of the API: http:localhost:5000/
 
 The structure of the API requests are as follows:
-
-
-
+![Routes for API](README files/routes.PNG)
 
 ## Import MySQL database
 
