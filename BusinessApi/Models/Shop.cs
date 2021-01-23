@@ -13,7 +13,7 @@ namespace BusinessApi.Models
     public int Pricing { get; set; }
 
     [Required]
-    [StringLength(10, ErrorMessage = "Description must be at least 10 characters")]
+    [StringLength(10, ErrorMessage = "Description must be less than 10 characters")]
     public string Description { get; set; }
   }
 }
