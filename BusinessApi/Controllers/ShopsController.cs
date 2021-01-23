@@ -43,5 +43,30 @@ namespace BusinessApi.Contollers
     }
 
 
+    // GET api/Shops/{id}
+    [HttpGet("{id}")]
+    public ActionResult<Shop> Get(int id)
+    {
+      return _db.Shops.FirstOrDefault(entry => entry.ShopId == id);
+    }
+
+    // PUT api/Shops/{id}
+    [HttpPut("{id}")]
+    public void Put(int id, [FromBody] Shop shop)
+    {
+      shop.ShopId = id;
+      _db.Entry(shop).State = EntityState.Modified;
+      _db.SaveChanges();
+    }
+
+    // DELETE api/Shops/{id}
+    [HttpDelete("{id}")]
+    public void Delete(int id)
+    {
+      var shopToDelete = _db.Shops.FirstOrDefault(entry => entry.ShopId == id);
+      _db.Shops.Remove(shopToDelete);
+      _db.SaveChanges();
+    }
+
   }
 }
