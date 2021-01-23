@@ -45,7 +45,7 @@ By Austin Schrader, 1/22/2020
 Home URL of the API: http:localhost:5000/
 
 The structure of the API requests are as follows:
-![Routes for API](README files/routes.PNG)
+![Routes for API](https://github.com/austinschrader/friday-business-api/blob/main/README%20files/routes.PNG)
 
 ## Import MySQL database
 
