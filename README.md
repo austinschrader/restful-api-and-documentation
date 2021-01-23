@@ -16,7 +16,7 @@ By Austin Schrader, 1/22/2020
 - [Download MySQL & MySQL Workbench for Windows here](https://dev.mysql.com/downloads/file/?id=484914)
 - [Download MySQL & MySQL Workbench for MacOS here](https://dev.mysql.com/downloads/file/?id=484919)
 
-## Project Setup
+## API Project Setup
 
 1. Clone or Download this repository
 2. Navigate to the folder where you downloaded or cloned this repository
@@ -26,6 +26,8 @@ By Austin Schrader, 1/22/2020
 6. Import the MySQL database
 7. Then type in `dotnet run` to run the application
 8. Congratulations, this is the program!
+
+# API Documentation
 
 ## Swagger Setup
 
@@ -37,6 +39,15 @@ By Austin Schrader, 1/22/2020
 3. To add a Shop, click the Shops button
 4. Then click POST for /api/Shops
 5. Finally all Shops, click on the "Get" button and then
+
+## API Endpoints
+
+Home URL of the API: http:localhost:5000/
+
+The structure of the API requests are as follows:
+
+
+
 
 ## Import MySQL database
 
