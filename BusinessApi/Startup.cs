@@ -24,7 +24,15 @@ namespace BusinessApi
                 opt.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            services.AddSwaggerDocument();
+            services.AddSwaggerDocument(config =>
+            {
+              config.PostProcess = document =>
+              {
+                document.Info.Version = "v1";
+                document.Info.Title = "ToDo API";
+                document.Info.Description = "A simple .NET Core RESTful web API";
+              };
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
