@@ -27,6 +27,17 @@ By Austin Schrader, 1/22/2020
 7. Then type in `dotnet run` to run the application
 8. Congratulations, this is the program!
 
+## Swagger Setup
+
+- Swagger documentation is a fantastic tool that allows you to generate API documentation.
+- To access Swagger, you actually don't need to do any additional setup or installation.
+
+1. Immediately after finishing "Project Setup" instructions, when the application is running, navigate to http://localhost:5000/swagger/index.html
+2. You can click on either "Shops" or "Restaurants" to be shown the CRUD routes that the API supports.
+3. To add a Shop, click the Shops button
+4. Then click POST for /api/Shops
+5. Finally all Shops, click on the "Get" button and then
+
 ## Import MySQL database
 
 1. Open MySQL Workbench & enter in your MySQL password
@@ -75,6 +86,8 @@ At this time, there are no known bugs. If you see spot a bug feel free to make a
 - Identity
 - Swagger Documentation
 - API
+- NSwag
+- Postman
 
 ## License
 
