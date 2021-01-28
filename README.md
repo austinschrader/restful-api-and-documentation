@@ -51,13 +51,13 @@ The structure of the API requests are as follows:
 
 ### API Queries
 
-| Purpose             | URL                                        | Method | Body                   | Return Value                                                                                                                           |
-|---------------------|--------------------------------------------|--------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Get all Restaurants | http://localhost:5000/api/restaurants      | GET    | -                      | ![GET all Restaurants Return Value](https://github.com/austinschrader/friday-business-api/blob/main/README%20files/getrestaurants.PNG) |
-| Post a Restaurant   | http://localhost:5000/api/restaurants      | POST   | ![POST Body Example]() | ![POST a Restaurant Return Value](https://github.com/austinschrader/friday-business-api/blob/main/README%20files/getrestaurants.PNG)   |
-| Get a Restaurant    | http://localhost:5000/api/restaurants/{id} | GET    | -                      | ![GET a Restaurant Return Value](https://github.com/austinschrader/friday-business-api/blob/main/README%20files/getrestaurants.PNG)    |
-| Put a Restaurant    | http://localhost:5000/api/restaurants/{id} | PUT    | ![PUT Body Example]()  | ![PUT a Restaurant Return Value](https://github.com/austinschrader/friday-business-api/blob/main/README%20files/getrestaurants.PNG)    |
-| Delete a Restaurant | http://localhost:5000/api/restaurants/{id} | DELETE | -                      | ![DELETE a Restaurant Return Value](https://github.com/austinschrader/friday-business-api/blob/main/README%20files/getrestaurants.PNG) |
+| Purpose             | URL                                        | Method | Body                                                                                                              | Return Value                                                                                                                           |
+| ------------------- | ------------------------------------------ | ------ | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Get all Restaurants | http://localhost:5000/api/restaurants      | GET    | -                                                                                                                 | ![GET all Restaurants Return Value](https://github.com/austinschrader/friday-business-api/blob/main/README%20files/getrestaurants.PNG) |
+| Post a Restaurant   | http://localhost:5000/api/restaurants      | POST   | ![POST Body Example](https://github.com/austinschrader/friday-business-api/blob/main/README%20files/postbody.PNG) | ![POST a Restaurant Return Value](https://github.com/austinschrader/friday-business-api/blob/main/README%20files/getrestaurants.PNG)   |
+| Get a Restaurant    | http://localhost:5000/api/restaurants/{id} | GET    | -                                                                                                                 | ![GET a Restaurant Return Value](https://github.com/austinschrader/friday-business-api/blob/main/README%20files/getrestaurants.PNG)    |
+| Put a Restaurant    | http://localhost:5000/api/restaurants/{id} | PUT    | ![PUT Body Example](https://github.com/austinschrader/friday-business-api/blob/main/README%20files/putbody.PNG)   | ![PUT a Restaurant Return Value](https://github.com/austinschrader/friday-business-api/blob/main/README%20files/getrestaurants.PNG)    |
+| Delete a Restaurant | http://localhost:5000/api/restaurants/{id} | DELETE | -                                                                                                                 | ![DELETE a Restaurant Return Value](https://github.com/austinschrader/friday-business-api/blob/main/README%20files/getrestaurants.PNG) |
 
 ## Import MySQL database
 
