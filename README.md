@@ -70,7 +70,7 @@ The structure of the API requests are as follows:
 
 1. Download this repository by clicking the "Code" button and then copy the url
 2. Open a terminal and navigate to where you want the repository cloned to
-3. Type in `git clone REPOSITORYURLHERE`
+3. Type in `git clone https://github.com/austinschrader/friday-business-api`
 4. Congratulations, you cloned the repository.
 
 ## Download this repository
