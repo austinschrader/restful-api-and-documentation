@@ -1,8 +1,8 @@
-# MVC .NET Core RESTful API with Swagger Documentation
+# RESTful API built using .NET Core with Swagger Documentation
 
 ## Description
 
-This is a custom built MVC .NET Core RESTful API to manage, and display restaurants and shops in the database. You can do all CRUD functionality including create, update, delete, get one, get all, for both restaurants and shops.
+This is a custom built RESTful API built using .NET Core with Swagger Documentation to manage, and display restaurants and shops in the database. You can do all CRUD functionality including create, update, delete, get one, get all, for both restaurants and shops.
 
 By Austin Schrader, 1/22/2020
 
